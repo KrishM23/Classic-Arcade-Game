@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+.players{
+    width: 15%;
+    margin-left: 290px;
+}
+    
+li{
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     width: 100px;
+     height: 100px;
+     padding-top: 10px;
+    
+}
+    
+li:hover{
+      width: 100px;
+      height: 100px;
+      border: 2px dotted yellow;
+      border-radius: 180px;
+      box-shadow: 2px 2px 2px 2px black;
+      background-color: brown;
+}
+img{
+    height: 120px;
+    margin-top: -15px;
+    
+}
+canvas{
+    margin-top: -600px;
+    
+}
+    
+
